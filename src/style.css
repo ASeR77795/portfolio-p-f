@@ -415,6 +415,10 @@ button:focus {
 	z-index: 1;
 	text-align: center !important;
 }
+/* .active-link {
+	font-weight: bold !important;
+	color: red !important;
+} */
 
 @media (max-width: 767px) {
 	.footer-copywright {
