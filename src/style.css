@@ -596,6 +596,9 @@ button:focus {
 	text-align: left !important;
 	padding-left: 1px !important;
 }
+.number {
+	font-family: 'Roboto', sans-serif !important;
+}
 
 @media (max-width: 767px) {
 	.about-img {

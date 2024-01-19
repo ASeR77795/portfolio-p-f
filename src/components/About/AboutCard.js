@@ -15,14 +15,26 @@ function AboutCard() {
 					<p style={{ textAlign: 'justify' }}>
 						Hi Everyone, I am <span className='purple'>Pavlo Fedorenko </span>
 						from <span className='purple'> Odesa, Ukraine.</span>
+						<br />I have completed Hillel it school in Front End Development.
 						<br />
-						I have completed Hillel it school in Front End Development.
+						<div style={{ padding: '1rem', paddingLeft: '2rem' }}>
+							<FaArrowDown />
+						</div>
+						<IoSchoolOutline /> Front End Pro Courses{' '}
+						<span className='purple number' style={{ marginLeft: '10px' }}>
+							{' '}
+							03.2023
+						</span>
 						<br />
-						<FaArrowDown />
-						<br />
-						<IoSchoolOutline /> Front End Pro Courses
-						<br />
-						<IoSchoolOutline /> Front End Basic Courses
+						<IoSchoolOutline /> Front End Basic Courses{' '}
+						<span
+							className='purple number'
+							style={{
+								marginLeft: ' 10px',
+							}}
+						>
+							09.2022
+						</span>
 						<br />
 						<br />
 						Apart from coding, some other activities that I love to do!
