@@ -19,7 +19,7 @@ function Education() {
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
 					<Image
 						src={certificate2}
-						style={{ width: `calc(${width}px - 10%)` }}
+						// style={{ width: `calc(${width}px - 10%)` }}
 					/>
 				</Row>
 				<Row style={{ justifyContent: 'center', position: 'relative' }}>
@@ -37,7 +37,7 @@ function Education() {
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
 					<Image
 						src={certificate1}
-						style={{ width: `calc(${width}px - 10%)` }}
+						// style={{ width: `calc(${width}px - 10%)` }}
 					/>
 				</Row>
 				<Row style={{ justifyContent: 'center', position: 'relative' }}>
