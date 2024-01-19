@@ -12,6 +12,7 @@ import {
 	AiOutlineHome,
 	AiOutlineFundProjectionScreen,
 	AiOutlineUser,
+	AiOutlineRead,
 } from 'react-icons/ai';
 
 import { CgFileDocument } from 'react-icons/cg';
@@ -92,6 +93,16 @@ function NavBar() {
 								className='active-link'
 							>
 								<CgFileDocument style={{ marginBottom: '2px' }} /> Resume
+							</Nav.Link>
+						</Nav.Item>
+						<Nav.Item>
+							<Nav.Link
+								as={Link}
+								to={'/education'}
+								onClick={() => updateExpanded(false)}
+								className='active-link'
+							>
+								<AiOutlineRead /> Education
 							</Nav.Link>
 						</Nav.Item>
 
