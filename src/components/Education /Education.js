@@ -18,24 +18,6 @@ function Education() {
 
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
 					<Image
-						src={certificate1}
-						style={{ width: `calc(${width}px - 10%)` }}
-					/>
-				</Row>
-				<Row style={{ justifyContent: 'center', position: 'relative' }}>
-					<Button
-						variant='primary'
-						href={'#'}
-						style={{ maxWidth: '250px' }}
-						className='my-5'
-					>
-						<AiOutlineFileProtect />
-						&nbsp;Visit site
-					</Button>
-				</Row>
-
-				<Row className='certificate' style={{ justifyContent: 'center' }}>
-					<Image
 						src={certificate2}
 						style={{ width: `calc(${width}px - 10%)` }}
 					/>
@@ -43,7 +25,26 @@ function Education() {
 				<Row style={{ justifyContent: 'center', position: 'relative' }}>
 					<Button
 						variant='primary'
-						href={'#'}
+						target='_blank'
+						href={'https://certificate.ithillel.ua/view/57946606'}
+						style={{ maxWidth: '250px' }}
+						className='my-5'
+					>
+						<AiOutlineFileProtect />
+						&nbsp;Visit site
+					</Button>
+				</Row>
+				<Row className='certificate' style={{ justifyContent: 'center' }}>
+					<Image
+						src={certificate1}
+						style={{ width: `calc(${width}px - 10%)` }}
+					/>
+				</Row>
+				<Row style={{ justifyContent: 'center', position: 'relative' }}>
+					<Button
+						variant='primary'
+						target='_blank'
+						href={'https://certificate.ithillel.ua/view/11468248'}
 						style={{ maxWidth: '250px' }}
 						className='my-5'
 					>
