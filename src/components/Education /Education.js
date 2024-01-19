@@ -13,14 +13,11 @@ function Education() {
 	}, []);
 	return (
 		<div>
-			<Container fluid className='education-section'>
+			<Container className='education-section'>
 				<Particle />
 
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
-					<Image
-						src={certificate2}
-						style={{ width: `calc(${width}px - 10%)` }}
-					/>
+					<Image src={certificate2} />
 				</Row>
 				<Row style={{ justifyContent: 'center', position: 'relative' }}>
 					<Button
@@ -35,10 +32,7 @@ function Education() {
 					</Button>
 				</Row>
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
-					<Image
-						src={certificate1}
-						style={{ width: `calc(${width}px - 10%)` }}
-					/>
+					<Image src={certificate1} />
 				</Row>
 				<Row style={{ justifyContent: 'center', position: 'relative' }}>
 					<Button
