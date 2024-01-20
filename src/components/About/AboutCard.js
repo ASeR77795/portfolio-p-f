@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
 import { IoSchoolOutline } from 'react-icons/io5';
 import { FaArrowDown } from 'react-icons/fa';
 import { CgGames } from 'react-icons/cg';
 import { FaRegFileCode } from 'react-icons/fa';
 import { BsBook } from 'react-icons/bs';
+import { PiFlagCheckeredDuotone } from 'react-icons/pi';
 
 function AboutCard() {
 	return (
@@ -24,7 +24,8 @@ function AboutCard() {
 						<span className='purple number' style={{ marginLeft: '10px' }}>
 							{' '}
 							03.2023
-						</span>
+						</span>{' '}
+						<PiFlagCheckeredDuotone />
 						<br />
 						<IoSchoolOutline /> Front End Basic Courses{' '}
 						<span
@@ -34,7 +35,8 @@ function AboutCard() {
 							}}
 						>
 							09.2022
-						</span>
+						</span>{' '}
+						<PiFlagCheckeredDuotone />
 						<br />
 						<br />
 						Apart from coding, some other activities that I love to do!
