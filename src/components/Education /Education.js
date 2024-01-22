@@ -28,7 +28,7 @@ function Education() {
 						className='my-5'
 					>
 						<AiOutlineFileProtect />
-						&nbsp;Visit Shool
+						&nbsp;Visit School
 					</Button>
 				</Row>
 				<Row className='certificate' style={{ justifyContent: 'center' }}>
@@ -43,7 +43,7 @@ function Education() {
 						className='my-5'
 					>
 						<AiOutlineFileProtect />
-						&nbsp;Visit Shool
+						&nbsp;Visit School
 					</Button>
 				</Row>
 			</Container>

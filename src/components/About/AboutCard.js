@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import { IoSchoolOutline } from 'react-icons/io5';
 import { FaArrowDown } from 'react-icons/fa';
 import { CgGames } from 'react-icons/cg';
-import { FaRegFileCode } from 'react-icons/fa';
+import { CgGym } from 'react-icons/cg';
 import { BsBook } from 'react-icons/bs';
 import { PiFlagCheckeredDuotone } from 'react-icons/pi';
 
@@ -46,7 +46,7 @@ function AboutCard() {
 							<CgGames /> Playing Games
 						</li>
 						<li className='about-activity'>
-							<FaRegFileCode /> Learning to code
+							<CgGym /> Sports
 						</li>
 						<li className='about-activity'>
 							<BsBook /> Reading
