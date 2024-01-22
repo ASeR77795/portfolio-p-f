@@ -17,6 +17,7 @@ function AboutCard() {
 						from <span className='purple'> Odesa, Ukraine.</span>
 						<br />I have completed Hillel it school in Front End Development.
 						<br />
+						Currently, I'm based in New York City, USA.
 						<div style={{ padding: '1rem', paddingLeft: '2rem' }}>
 							<FaArrowDown />
 						</div>
